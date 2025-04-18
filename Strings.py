@@ -1,6 +1,6 @@
 #concatation
 str1 = "farru"
-#length of String
+#length of String 
 print(len(str1))
 
 str2 = "far"

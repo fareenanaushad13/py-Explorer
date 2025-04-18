@@ -1,4 +1,4 @@
-#1) input user first name and print its length
+#1) input user first name and print its length 
 name = input("Enter Your Name:")
 print("length of name is:", len(name))
 

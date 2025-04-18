@@ -2,7 +2,7 @@
 
 light = "green"
 
-if(light == "red"):
+if(light == "red"): 
     print("stop")
 elif(light == "green"):
     print("go")
