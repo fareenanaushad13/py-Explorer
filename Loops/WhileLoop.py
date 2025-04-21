@@ -14,7 +14,7 @@ print("loop ended")
 n = int(input("Enter a Number: "))
 i = 1
 while i <= 10:
-    print(n*i)
+    print(n*i) 
     i += 1
 
 # element of lists using loop

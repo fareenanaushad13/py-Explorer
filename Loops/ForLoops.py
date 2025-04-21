@@ -39,7 +39,7 @@ for i in range(2,10):  #range(start, stop)
 for i in range(2,10,2):  #range(start, stop, step) --> 2,4,6,8-->step of 2
     print(i)    
 
-#Pass --> pass ia a null statemenr, used to to indicate that nothing is to be done
+# Pass --> pass ia a null statemenr, used to to indicate that nothing is to be done
 
 for i in range(5):
     pass

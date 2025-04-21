@@ -7,7 +7,7 @@ for i in range(1,101):
 for i in range(100,0,-1):
     print(i)    
 
-# 3) print a multiliacation of a number n
+# Q3) print a multiliacation of a number n
 
 n = int(input("Enter a number:"))
 
