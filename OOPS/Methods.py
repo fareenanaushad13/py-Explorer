@@ -22,3 +22,21 @@ class College:
     def college():
         print("DSPMU")
 College.college()
+
+# class Method -->
+# A class method is bound to the class & recieves the class as an implicit first argument
+#  Note - static method cannot access or modify the class state and generally for utility
+class Person:
+    name = "anonymous"
+
+    # def changeName(obj, name):
+    #     sel.__class__.name = "far"
+
+    @classmethod
+    def changeName(cls, name):
+        cls.name = name
+
+p1 = Person()
+p1.changeName("far farru")
+print(p1.name)
+print(Person.name)
