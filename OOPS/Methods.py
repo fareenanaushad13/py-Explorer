@@ -40,3 +40,22 @@ p1 = Person()
 p1.changeName("far farru")
 print(p1.name)
 print(Person.name)
+
+#Property Method
+# we use @property decorator on any method int the class to use the method property 
+
+class Student:
+    def __init__(self, phy, chem, math):
+        self.phy = phy
+        self.chem = chem
+        self.math = math
+
+    @property
+    def percentage(self):
+        return str((self.phy + self.chem + self.math)/ 3) + "%"
+
+stu1 = Student(89,98,67)
+print(stu1.percentage) 
+
+stu1.phy  = 77
+print(stu1.percentage)
